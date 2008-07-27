@@ -4,6 +4,7 @@
 	 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <packaging>pom</packaging> 
+  <name>Zauber parent POM</name>
 
   <issueManagement>
      <system>mantis</system>
@@ -59,14 +60,6 @@
            </execution>
        </executions>
     </plugin>
-	<plugin>
-	   <groupId>org.apache.maven.plugins</groupId>
-	   <artifactId>maven-checkstyle-plugin</artifactId>
-	   <configuration>
-	      <format>zauber</format>
-	   </configuration>
-	   <inherited>true</inherited>
-	</plugin>
       </plugins>
     </pluginManagement>  
   </build>
@@ -81,8 +74,35 @@
      <plugins>
        <plugin>
          <groupId>org.apache.maven.plugins</groupId>
-	 <artifactId>maven-project-info-reports-plugin</artifactId>
+	     <artifactId>maven-project-info-reports-plugin</artifactId>
        </plugin>
+       <plugin>
+         <groupId>org.codehaus.mojo</groupId>
+         <artifactId>findbugs-maven-plugin</artifactId>
+         <version>1.2</version>
+         <configuration>
+             <findbugsXmlOutput>true</findbugsXmlOutput>
+             <xmlOutput>true</xmlOutput>
+             <threshold>High</threshold>
+             <effort>Max</effort>
+             <relaxed>true</relaxed>
+         </configuration>
+      </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-pmd-plugin</artifactId>
+        <configuration>
+          <targetJdk>1.5</targetJdk>
+          <sourceEncoding>iso-8859-1</sourceEncoding>
+        </configuration>
+      </plugin>
+      <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-checkstyle-plugin</artifactId>
+          <configuration>
+             <configLocation>checkstyle.xml</configLocation>
+          </configuration>
+      </plugin>
      </plugins>
   </reporting>
   <dependencyManagement/>
