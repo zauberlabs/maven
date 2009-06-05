@@ -14,7 +14,7 @@
 
 
   <!-- override these ones -->
-  <version>1.0.6-SNAPSHOT</version>
+  <version>1.0.7-SNAPSHOT</version>
   <groupId>ar.com.zauber.maven.poms</groupId>
   <artifactId>bare</artifactId>
 
