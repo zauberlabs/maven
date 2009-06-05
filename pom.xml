@@ -14,7 +14,7 @@
 
 
   <!-- override these ones -->
-  <version>1.0.6-SNAPSHOT</version>
+  <version>1.0.6</version>
   <groupId>ar.com.zauber.maven.poms</groupId>
   <artifactId>bare</artifactId>
 
@@ -37,15 +37,14 @@
 	   <artifactId>maven-eclipse-plugin</artifactId>
 	   <configuration>
 	       <outputDirectory>${project.build.directory}/eclipse-bin</outputDirectory>
-            <wtpversion>2.0</wtpversion>
-            <additionalProjectnatures>
-              <projectnature>org.springframework.ide.eclipse.core.springnature</projectnature>
-            </additionalProjectnatures>
-            <additionalBuildcommands>
+               <wtpversion>2.0</wtpversion>
+               <additionalProjectnatures>
+                <projectnature>org.springframework.ide.eclipse.core.springnature</projectnature>
+              </additionalProjectnatures>
+              <additionalBuildcommands>
                <buildcommand>org.springframework.ide.eclipse.core.springbuilder</buildcommand>
-            </additionalBuildcommands>
+              </additionalBuildcommands>
 	   </configuration>
-       <version>2.5.1</version>
 	   <inherited>true</inherited>
 	</plugin>
     <plugin>
@@ -98,7 +97,7 @@
        <plugin>
          <groupId>org.codehaus.mojo</groupId>
          <artifactId>findbugs-maven-plugin</artifactId>
-         <version>1.2</version>
+         <version>2.0.1</version>
          <configuration>
              <findbugsXmlOutput>true</findbugsXmlOutput>
              <xmlOutput>true</xmlOutput>
