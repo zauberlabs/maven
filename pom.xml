@@ -188,16 +188,6 @@
          <timezone>-3</timezone>
      </developer>
      <developer>
-         <name>Christian Nardi</name>
-         <id>christian</id>
-         <organization>Zauber S.A.</organization>
-         <organizationUrl>http://www.zaubersoftware.com/</organizationUrl>
-         <roles>
-           <role>Council Member</role>
-         </roles>
-         <timezone>-3</timezone>
-     </developer>
-     <developer>
          <name>Marcelo Turrin</name>
          <id>marcelo</id>
          <organization>Zauber S.A.</organization>
