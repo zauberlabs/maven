@@ -8,7 +8,7 @@
 
   <issueManagement>
      <system>mantis</system>
-     <url>https://tracker.zauber.com.ar/</url>
+     <url>https://tracker.zaubersoftware.com/</url>
   </issueManagement>
   <ciManagement/>
 
@@ -84,7 +84,7 @@
   
   <organization>
     <name>Zauber S.A.</name>
-    <url>http://www.zauber.com.ar/</url>
+    <url>http://www.zaubersoftware.com/</url>
   </organization>
     <profiles/>
   
@@ -130,8 +130,8 @@
          <name>Juan F. Codagnone</name>
          <id>juan</id>
          <organization>Zauber S.A.</organization>
-         <organizationUrl>http://www.zauber.com.ar/</organizationUrl>
-         <url>http://juan.zauber.com.ar/</url>
+         <organizationUrl>http://www.zaubersoftware.com/</organizationUrl>
+         <url>http://juan.zaubersoftware.com/</url>
          <roles>
            <role>Board Member</role>
          </roles>
@@ -141,7 +141,7 @@
          <name>Fernando J. Zunino</name>
          <id>fernando</id>
          <organization>Zauber S.A.</organization>
-         <organizationUrl>http://www.zauber.com.ar/</organizationUrl>
+         <organizationUrl>http://www.zaubersoftware.com/</organizationUrl>
          <roles>
            <role>Board Member</role>
          </roles>
@@ -151,7 +151,7 @@
          <name>Gabriel V. Baños</name>
          <id>gabriel</id>
          <organization>Zauber S.A.</organization>
-         <organizationUrl>http://www.zauber.com.ar/</organizationUrl>
+         <organizationUrl>http://www.zaubersoftware.com/</organizationUrl>
          <roles>
            <role>Board Member</role>
          </roles>
@@ -161,7 +161,7 @@
          <name>Mariano Cortesi</name>
          <id>mariano</id>
          <organization>Zauber S.A.</organization>
-         <organizationUrl>http://www.zauber.com.ar/</organizationUrl>
+         <organizationUrl>http://www.zaubersoftware.com/</organizationUrl>
          <roles>
            <role>Board Member</role>
          </roles>
@@ -171,7 +171,7 @@
          <name>Martin A. Marquez</name>
          <id>martin</id>
          <organization>Zauber S.A.</organization>
-         <organizationUrl>http://www.zauber.com.ar/</organizationUrl>
+         <organizationUrl>http://www.zaubersoftware.com/</organizationUrl>
          <roles>
            <role>Board Member</role>
          </roles>
@@ -181,7 +181,7 @@
          <name>C. Andres Moratti</name>
          <id>andres</id>
          <organization>Zauber S.A.</organization>
-         <organizationUrl>http://www.zauber.com.ar/</organizationUrl>
+         <organizationUrl>http://www.zaubersoftware.com/</organizationUrl>
          <roles>
            <role>Board Member</role>
          </roles>
@@ -191,7 +191,7 @@
          <name>Christian Nardi</name>
          <id>christian</id>
          <organization>Zauber S.A.</organization>
-         <organizationUrl>http://www.zauber.com.ar/</organizationUrl>
+         <organizationUrl>http://www.zaubersoftware.com/</organizationUrl>
          <roles>
            <role>Council Member</role>
          </roles>
@@ -201,7 +201,7 @@
          <name>Marcelo Turrin</name>
          <id>marcelo</id>
          <organization>Zauber S.A.</organization>
-         <organizationUrl>http://www.zauber.com.ar/</organizationUrl>
+         <organizationUrl>http://www.zaubersoftware.com/</organizationUrl>
          <roles>
            <role>Council Member</role>
          </roles>
